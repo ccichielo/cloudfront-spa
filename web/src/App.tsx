@@ -19,7 +19,7 @@ function App() {
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          count is {count} + and this is a change that will be reflected in the github actions deployment!
         </button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
